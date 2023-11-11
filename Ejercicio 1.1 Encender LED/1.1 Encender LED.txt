@@ -1,0 +1,25 @@
+/*Ejercicio 1.1:
+
+Realizá el programa y luego completá los siguientes desafíos:
+
+¿Cómo cambiamos la intensidad el led?
+
+¿Cómo variamos el tiempo de encendido?
+
+¿Cómo logramos que el led quede encendido continuamente?*/
+
+byte led = 13;
+
+void setup() {
+
+pinMode(led, OUTPUT);
+
+}
+
+void loop(){
+
+digitalWrite(led, HIGH);
+delay(500);
+digitalWrite(led, LOW);
+delay(500);
+}
